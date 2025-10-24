@@ -2,8 +2,8 @@ plugins {
     kotlin("jvm") version "2.2.20"
 }
 
-group = "com.github.rei0925.ttrs"
-version = "1.0-SNAPSHOT"
+group = "com.github.rei0925.commands"
+version = "1.0.1"
 
 repositories {
     mavenCentral()

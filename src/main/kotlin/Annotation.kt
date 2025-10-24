@@ -1,4 +1,4 @@
-package com.github.rei0925.command
+package com.github.rei0925.commands
 
 @Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.RUNTIME)

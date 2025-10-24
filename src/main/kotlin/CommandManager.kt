@@ -1,4 +1,4 @@
-package com.github.rei0925.command
+package com.github.rei0925.commands
 
 import java.io.BufferedReader
 import java.io.InputStreamReader
