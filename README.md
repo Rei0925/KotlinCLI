@@ -49,6 +49,20 @@ fun main() {
 }
 ```
 
+### Interactive Mode
+
+The `startInteractive()` method runs a CLI loop that continuously prompts for user input and automatically handles command execution. This is useful for building interactive command-line applications without manually managing input reading.
+
+```kotlin
+fun main() {
+    val manager = CommandManager()
+    manager.registerCommand(EndCommand())
+
+    // Start interactive CLI loop
+    manager.startInteractive()
+}
+```
+
 ---
 
 ## ⚡ BaseCommand
@@ -80,7 +94,7 @@ This structure allows shared functionality such as `log()`, `help()`, or `contex
 
 ```kotlin
 dependencies {
-    implementation("com.github.rei0925:KotlinCLI:1.0.0")
+    implementation("com.github.Rei0925:KotlinCLI:v1.0.1")
 }
 ```
 
@@ -88,9 +102,9 @@ dependencies {
 
 ```xml
 <dependency>
-    <groupId>com.github.rei0925</groupId>
+    <groupId>com.github.Rei0925</groupId>
     <artifactId>KotlinCLI</artifactId>
-    <version>1.0.0</version>
+    <version>v1.0.1</version>
 </dependency>
 ```
 
