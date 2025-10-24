@@ -121,3 +121,7 @@ Feel free to open a pull request or submit an issue on GitHub.
 
 Commands is licensed under the [MIT License](https://tldrlegal.com/license/mit-license).  
 See [LICENSE](LICENSE.txt) for details.
+
+---
+## Support
+[DiscordServer](https://discord.gg/f2kQhCjgQs)

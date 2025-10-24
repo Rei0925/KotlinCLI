@@ -122,3 +122,7 @@ GitHubでプルリクエストを送るか、Issueを提出してください。
 
 Commandsは[MITライセンス](https://tldrlegal.com/license/mit-license)のもとでライセンスされています。  
 詳細は[LICENSE](LICENSE.txt)をご覧ください。
+
+---
+## サポート
+[ティスコードサーバー](https://discord.gg/f2kQhCjgQs)
