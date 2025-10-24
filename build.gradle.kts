@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "2.2.20"
 }
 
-group = "com.github.rei0925.commands"
+group = "com.github.rei0925.kotlincli"
 version = "1.0.1"
 
 repositories {

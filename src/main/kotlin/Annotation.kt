@@ -1,4 +1,4 @@
-package com.github.rei0925.commands
+package com.github.rei0925.kotlincli.commands
 
 @Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.RUNTIME)
