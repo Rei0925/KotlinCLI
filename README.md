@@ -94,7 +94,7 @@ This structure allows shared functionality such as `log()`, `help()`, or `contex
 
 ```kotlin
 dependencies {
-    implementation("com.github.Rei0925:KotlinCLI:v1.0.1")
+    implementation("com.github.Rei0925:KotlinCLI:1.0.2")
 }
 ```
 

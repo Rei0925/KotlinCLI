@@ -1,0 +1,8 @@
+jdk:
+  - openjdk17
+
+before_install:
+  - echo "Running Gradle build & publish to Maven Local"
+
+install:
+  - ./gradlew clean build publishToMavenLocal --stacktrace
