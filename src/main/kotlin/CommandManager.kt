@@ -1,9 +1,8 @@
 package com.github.rei0925.kotlincli.commands
 
-import java.io.BufferedReader
-import java.io.InputStreamReader
-import kotlin.reflect.full.findAnnotation
+import org.jline.reader.LineReaderBuilder
 import kotlin.reflect.full.declaredMemberFunctions
+import kotlin.reflect.full.findAnnotation
 
 class CommandManager() {
     private val commands = mutableMapOf<String, Pair<Any, (List<String>) -> Unit>>()
@@ -67,16 +66,11 @@ class CommandManager() {
     }
 
     fun startInteractive() {
-        val reader = BufferedReader(InputStreamReader(System.`in`))
+        val reader = LineReaderBuilder.builder().build()
 
         while (true) {
             try {
-                synchronized(lock) {
-                    print("> ")
-                    System.out.flush()
-                }
-
-                val input = reader.readLine()?.trim() ?: continue
+                val input = reader.readLine("> ")?.trim() ?: continue
                 if (input.isEmpty()) continue
 
                 // 終了コマンドが実行されたら break

@@ -14,8 +14,9 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
 
-    implementation("org.reflections:reflections:0.10.2")
-    implementation("org.jetbrains.kotlin:kotlin-reflect")
+    api("org.reflections:reflections:0.10.2")
+    api("org.jetbrains.kotlin:kotlin-reflect")
+    api("org.jline:jline:3.26.1")
 }
 
 tasks.test {
