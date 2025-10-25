@@ -1,4 +1,5 @@
 # KotlinCLI
+[![](https://jitpack.io/v/Rei0925/KotlinCLI.svg)](https://jitpack.io/#Rei0925/KotlinCLI)
 
 **KotlinCLI** is a lightweight framework for building command-line interfaces (CLI) in Kotlin.  
 It allows you to define commands easily with annotations, avoiding complex parsing or configurations.

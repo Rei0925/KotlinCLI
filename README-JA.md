@@ -1,4 +1,5 @@
 # KotlinCLI
+[![](https://jitpack.io/v/Rei0925/KotlinCLI.svg)](https://jitpack.io/#Rei0925/KotlinCLI)
 
 **KotlinCLI** は、Kotlinでコマンドラインインターフェース（CLI）を構築するための軽量フレームワークです。  
 アノテーションを使って簡単にコマンドを定義でき、複雑な解析や設定を避けられます。
