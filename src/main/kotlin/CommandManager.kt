@@ -1,6 +1,7 @@
 package com.github.rei0925.kotlincli.commands
 
 import org.jline.reader.LineReaderBuilder
+import org.jline.terminal.TerminalBuilder
 import kotlin.reflect.full.declaredMemberFunctions
 import kotlin.reflect.full.findAnnotation
 
@@ -66,7 +67,8 @@ class CommandManager() {
     }
 
     fun startInteractive() {
-        val reader = LineReaderBuilder.builder().build()
+        val terminal = TerminalBuilder.builder().system(true).build()
+        val reader = LineReaderBuilder.builder().terminal(terminal).build()
 
         while (true) {
             try {
