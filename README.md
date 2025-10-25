@@ -104,7 +104,7 @@ dependencies {
 <dependency>
     <groupId>com.github.Rei0925</groupId>
     <artifactId>KotlinCLI</artifactId>
-    <version>v1.0.1</version>
+    <version>1.0.2</version>
 </dependency>
 ```
 

@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.github.rei0925.kotlincli"
-version = "1.0.1"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
@@ -54,8 +54,9 @@ publishing {
                 url.set("https://github.com/rei0925/KotlinCLI")
                 licenses {
                     license {
-                        name.set("The Apache License, Version 2.0")
-                        url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
+                        name.set("The MIT License")
+                        url.set("https://opensource.org/licenses/MIT")
+                        distribution.set("repo")
                     }
                 }
                 developers {
